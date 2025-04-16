@@ -9,7 +9,7 @@ A feature-rich task management platform built with **React**, **Redux**, and **s
 ### 📋 Table View (`/table`)
 - Custom-built table (no external Table libs)
 - Infinite scroll for tasks
-- Filtering by status, priority, assignee
+- Filtering by status, priority, and assignee
 - Search by task name/description
 - Sorting by columns
 - Edit Columns Modal (show/hide & reorder with persistence)
@@ -95,7 +95,7 @@ src/
 
 ## 📸 Live Demo
 
-[🔗 Add deployed link here if available]
+[🔗 https://go-task-manager-app.vercel.app/table]
 
 ---
 
