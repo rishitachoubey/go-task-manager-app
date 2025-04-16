@@ -95,7 +95,8 @@ src/
 
 ## 📸 Live Demo
 
-[🔗 https://go-task-manager-app.vercel.app/table]
+- Vercel link- [🔗 https://go-task-manager-app.vercel.app/table]
+- Demo Link- [🔗 https://drive.google.com/file/d/1v9J3pe4QiYp7_tRmwUzdap7tPdxydslA/view?usp=drive_link]
 
 ---
 
