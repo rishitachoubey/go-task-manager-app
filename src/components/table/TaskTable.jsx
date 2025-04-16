@@ -11,6 +11,7 @@ const displayMap = {
   assignee: 'Assignee',
   status: 'Status',
   dueDate: 'Due Date',
+  priority: 'Priority',
   estimatedHours: 'Estimation Hours',
   remarks: 'Remarks',
 };
@@ -18,13 +19,23 @@ const displayMap = {
 const TableWrapper = styled.div`
   padding: 24px;
   overflow-x: auto;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
 `;
 
 const StyledTable = styled.table`
   width: 100%;
+  min-width: 800px; /* Ensures horizontal scroll if content overflows */
   border-collapse: collapse;
   border: 1px solid #ccc;
   font-size: 14px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    min-width: 600px;
+  }
 `;
 
 const TableHead = styled.thead`
@@ -36,11 +47,21 @@ const Th = styled.th`
   border: 1px solid #ccc;
   font-weight: 600;
   text-align: left;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
 `;
 
 const Td = styled.td`
   padding: 12px;
   border: 1px solid #ddd;
+  white-space: nowrap;
+  
+  @media (max-width: 768px) {
+    padding: 8px;
+    font-size: 12px;
+  }
 `;
 
 const Tr = styled.tr`

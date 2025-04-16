@@ -64,7 +64,7 @@ const FilterBar = () => {
       <Input
         name="assignee"
         value={filters.assignee}
-        placeholder="Filter by assignee"
+        placeholder="Search by assignee"
         onChange={handleChange}
       />
       <Input

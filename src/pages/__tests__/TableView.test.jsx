@@ -16,5 +16,5 @@ test('renders filter bar and task table', () => {
   );
 
   expect(screen.getByText(/Edit Columns/i)).toBeInTheDocument();
-  expect(screen.getByPlaceholderText(/Filter by assignee/i)).toBeInTheDocument();
+  expect(screen.getByPlaceholderText(/Search by assignee/i)).toBeInTheDocument();
 });

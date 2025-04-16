@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/api/tasks.js</title>
+    <title>Code coverage report for TaskTable.jsx</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../prettify.css" />
-    <link rel="stylesheet" href="../../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../../sort-arrow-sprite.png);
+            background-image: url(sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/api</a> tasks.js</h1>
+        <h1><a href="index.html">All files</a> TaskTable.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">77.77% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>35/45</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">58.62% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>17/29</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">70.58% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>12/17</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">84.61% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>33/39</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -192,19 +192,165 @@
 <a name='L127'></a><a href='#L127'>127</a>
 <a name='L128'></a><a href='#L128'>128</a>
 <a name='L129'></a><a href='#L129'>129</a>
-<a name='L130'></a><a href='#L130'>130</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a>
+<a name='L156'></a><a href='#L156'>156</a>
+<a name='L157'></a><a href='#L157'>157</a>
+<a name='L158'></a><a href='#L158'>158</a>
+<a name='L159'></a><a href='#L159'>159</a>
+<a name='L160'></a><a href='#L160'>160</a>
+<a name='L161'></a><a href='#L161'>161</a>
+<a name='L162'></a><a href='#L162'>162</a>
+<a name='L163'></a><a href='#L163'>163</a>
+<a name='L164'></a><a href='#L164'>164</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -216,15 +362,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -232,224 +383,175 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">20x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Simulated Task API response
-export const fetchTasksAPI = () =&gt;
-  new Promise((resolve) =&gt;
-    setTimeout(() =&gt; {
-      resolve([
-        {
-          id: 1,
-          name: 'Fix login bug',
-          status: 'In Progress',
-          priority: 'High',
-          assignee: 'Alice',
-          dueDate: '2025-04-18',
-          description: 'Fix login issue on Android',
-          comments: ['Investigating issue', 'Patch submitted'],
-          estimatedHours: 5
-        },
-        {
-          id: 2,
-          name: 'Create dashboard UI',
-          status: 'Completed',
-          priority: 'Medium',
-          assignee: 'Bob',
-          dueDate: '2025-04-14',
-          description: 'Use Recharts for analytics',
-          comments: ['Approved by design team'],
-          estimatedHours: 4
-        },
-        {
-          id: 3,
-          name: 'Update user profile form',
-          status: 'Completed',
-          priority: 'Low',
-          assignee: 'Charlie',
-          dueDate: '2025-04-10',
-          description: 'Add new input fields and validation',
-          comments: ['Deployed to staging'],
-          estimatedHours: 2
-        },
-        {
-          id: 4,
-          name: 'Refactor auth service',
-          status: 'In Progress',
-          priority: 'High',
-          assignee: 'Diana',
-          dueDate: '2025-04-20',
-          description: 'Modularize and improve readability',
-          comments: ['Initial refactor done'],
-          estimatedHours: 6
-        },
-        {
-          id: 5,
-          name: 'QA Test Payment Flow',
-          status: 'In Progress',
-          priority: 'Medium',
-          assignee: 'Ella',
-          dueDate: '2025-04-19',
-          description: 'Ensure all gateways work properly',
-          comments: ['UPI failed on mobile'],
-          estimatedHours: 3
-        },
-        {
-          id: 6,
-          name: 'Fix navbar collapsing',
-          status: 'Completed',
-          priority: 'Low',
-          assignee: 'Frank',
-          dueDate: '2025-04-12',
-          description: 'Navbar disappears on smaller screens',
-          comments: ['Patch verified'],
-          estimatedHours: 1
-        },
-        {
-          id: 7,
-          name: 'Write unit tests for filters',
-          status: 'In Progress',
-          priority: 'Medium',
-          assignee: 'Gina',
-          dueDate: '2025-04-21',
-          description: 'Cover all reducers and UI logic',
-          comments: [],
-          estimatedHours: 4
-        },
-        {
-          id: 8,
-          name: 'Design new logo',
-          status: 'Completed',
-          priority: 'Low',
-          assignee: 'Harry',
-          dueDate: '2025-04-08',
-          description: 'Minimal, modern design needed',
-          comments: ['Approved by marketing'],
-          estimatedHours: 2
-        },
-        {
-          id: 9,
-          name: 'Implement dark mode',
-          status: 'In Progress',
-          priority: 'High',
-          assignee: 'Isla',
-          dueDate: '2025-04-22',
-          description: 'Toggle theme with user setting',
-          comments: ['CSS refactor needed'],
-          estimatedHours: 6
-        },
-        {
-          id: 10,
-          name: 'Add tooltips to buttons',
-          status: 'Completed',
-          priority: 'Low',
-          assignee: 'John',
-          dueDate: '2025-04-15',
-          description: 'Improves usability for new users',
-          comments: [],
-          estimatedHours: 1
-        },
-        ...Array.from({ length: 20 }, (_, i) =&gt; ({
-          id: 11 + i,
-          name: `Task ${11 + i}`,
-          status: i % 3 === 0 ? 'Completed' : 'In Progress',
-          priority: ['High', 'Medium', 'Low'][i % 3],
-          assignee: ['Alice', 'Bob', 'Charlie', 'Diana', 'Ella'][i % 5],
-          dueDate: `2025-04-${(10 + (i % 20)).toString().padStart(2, '0')}`,
-          description: `Auto-generated task description ${11 + i}`,
-          comments: [],
-          estimatedHours: Math.floor(Math.random() * 6 + 1)
-        }))
-      ]);
-    }, 500)
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { useEffect, useState, useRef } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchTasks } from '../../features/taskSlice';
+import styled from 'styled-components';
+import TaskDrawer from '../drawer/TaskDrawer';
+&nbsp;
+const displayMap = {
+  id: 'ID',
+  name: 'Name1',
+  description: 'Description',
+  assignee: 'Assignee',
+  status: 'Status',
+  dueDate: 'Due Date',
+  estimatedHours: 'Estimation Hours',
+  remarks: 'Remarks',
+};
+&nbsp;
+const TableWrapper = styled.div`
+  padding: 24px;
+  overflow-x: auto;
+&nbsp;
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
+`;
+&nbsp;
+const StyledTable = styled.table`
+  width: 100%;
+  min-width: 800px; /* Ensures horizontal scroll if content overflows */
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-size: 14px;
+&nbsp;
+  @media (max-width: 768px) {
+    font-size: 12px;
+    min-width: 600px;
+  }
+`;
+&nbsp;
+const TableHead = styled.thead`
+  background-color: #f8f8f8;
+`;
+&nbsp;
+const Th = styled.th`
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-weight: 600;
+  text-align: left;
+&nbsp;
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+`;
+&nbsp;
+const Td = styled.td`
+  padding: 12px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  
+  @media (max-width: 768px) {
+    padding: 8px;
+    font-size: 12px;
+  }
+`;
+&nbsp;
+const Tr = styled.tr`
+  &amp;:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+`;
+&nbsp;
+const NoData = styled.div`
+  padding: 20px;
+  text-align: center;
+  color: #777;
+`;
+&nbsp;
+const TaskTable = () =&gt; {
+  const dispatch = useDispatch();
+  const { list, loading, error, filters, columns } = useSelector((state) =&gt; state.tasks);
+  const [selectedTask, setSelectedTask] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(10);
+  const tableRef = useRef();
+&nbsp;
+  useEffect(() =&gt; {
+    dispatch(fetchTasks());
+  }, [dispatch]);
+&nbsp;
+  const filteredList = list.filter((task) =&gt; {
+    return (
+      (!filters.status || <span class="branch-1 cbranch-no" title="branch not covered" >task.status === filters.status)</span> &amp;&amp;
+      (!filters.priority || <span class="branch-3 cbranch-no" title="branch not covered" >task.priority === filters.priority)</span> &amp;&amp;
+      (!filters.assignee || <span class="branch-5 cbranch-no" title="branch not covered" >task.assignee.toLowerCase().includes(filters.assignee.toLowerCase()))</span> &amp;&amp;
+      (!filters.search ||
+<span class="branch-7 cbranch-no" title="branch not covered" >        task.name.toLowerCase().includes(filters.search.toLowerCase()) </span>||
+<span class="branch-8 cbranch-no" title="branch not covered" >        task.description.toLowerCase().includes(filters.search.toLowerCase()))</span>
+    );
+  });
+&nbsp;
+  const visibleRows = filteredList.slice(0, visibleCount);
+&nbsp;
+  useEffect(() =&gt; {
+    const interval = setInterval(() =&gt; {
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (tableRef.current) {
+        const { scrollHeight, clientHeight } = tableRef.current;
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (scrollHeight &lt;= clientHeight &amp;&amp; visibleCount &lt; filteredList.length) {
+<span class="cstat-no" title="statement not covered" >          setVisibleCount(<span class="fstat-no" title="function not covered" >(p</span>rev) =&gt; <span class="cstat-no" title="statement not covered" >Math.min(prev + 10, filteredList.length))</span>;</span>
+        } else {
+          clearInterval(interval);
+        }
+      }
+    }, 300);
+    return () =&gt; clearInterval(interval);
+  }, [filteredList.length, visibleCount]);
+&nbsp;
+  const handleScroll = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    if (!tableRef.current) <span class="cstat-no" title="statement not covered" >return;</span></span>
+    const { scrollTop, scrollHeight, clientHeight } = <span class="cstat-no" title="statement not covered" >tableRef.current;</span>
+<span class="cstat-no" title="statement not covered" >    if (scrollTop + clientHeight &gt;= scrollHeight - 50) {</span>
+<span class="cstat-no" title="statement not covered" >      setVisibleCount(<span class="fstat-no" title="function not covered" >(p</span>rev) =&gt; <span class="cstat-no" title="statement not covered" >Math.min(prev + 10, filteredList.length))</span>;</span>
+    }
+  };
+&nbsp;
+  return (
+    &lt;TableWrapper ref={tableRef} onScroll={handleScroll} style={{ maxHeight: '500px', overflowY: 'auto' }}&gt;
+      {loading &amp;&amp; &lt;NoData&gt;Loading tasks...&lt;/NoData&gt;}
+      {error &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >&lt;NoData&gt;{error}&lt;/NoData&gt;}</span>
+      {!loading &amp;&amp; filteredList.length === 0 &amp;&amp; &lt;NoData&gt;No tasks match the filter.&lt;/NoData&gt;}
+&nbsp;
+      {!loading &amp;&amp; filteredList.length &gt; 0 &amp;&amp; (
+        &lt;StyledTable&gt;
+          &lt;TableHead&gt;
+            &lt;tr&gt;
+              &lt;Th&gt;Row No.&lt;/Th&gt;
+              {columns.order
+                .filter((key) =&gt; columns.visible.includes(key))
+                .map((colKey) =&gt; (
+                  &lt;Th key={colKey}&gt;{displayMap[colKey]}&lt;/Th&gt;
+                ))}
+            &lt;/tr&gt;
+          &lt;/TableHead&gt;
+          &lt;tbody&gt;
+            {visibleRows.map((task, index) =&gt; (
+              &lt;Tr key={task.id} onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setSelectedTask(task)}</span>&gt;
+                &lt;Td&gt;{index + 1}&lt;/Td&gt;
+                {columns.order
+                  .filter((key) =&gt; columns.visible.includes(key))
+                  .map((key) =&gt; (
+                    &lt;Td key={key}&gt;{task[key]}&lt;/Td&gt;
+                  ))}
+              &lt;/Tr&gt;
+            ))}
+          &lt;/tbody&gt;
+        &lt;/StyledTable&gt;
+      )}
+&nbsp;
+      &lt;TaskDrawer task={selectedTask} onClose={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >setSelectedTask(null)}</span> /&gt;
+    &lt;/TableWrapper&gt;
   );
+};
+&nbsp;
+export default TaskTable;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -457,16 +559,16 @@ export const fetchTasksAPI = () =&gt;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-04-16T22:01:31.776Z
+                at 2025-04-16T22:01:46.183Z
             </div>
-        <script src="../../prettify.js"></script>
+        <script src="prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../../sorter.js"></script>
-        <script src="../../block-navigation.js"></script>
+        <script src="sorter.js"></script>
+        <script src="block-navigation.js"></script>
     </body>
 </html>
     
